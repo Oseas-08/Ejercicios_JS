@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/li.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table id="tdatos" border="1">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Direccion</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody id="tregistro">
+
+        </tbody>
+    </table>
+    <br>
+    
+    <input type="text" id="nombre" placeholder="nombre">
+    <input type="number" id="edad" placeholder="edad">
+    <select id="tipo">
+        <option value="01">Buena</option>
+        <option value="02">Mala</option>
+    </select>
+    <button id="enviar">Enviar</button>
+
+    <h3>Lista Buenos</h3>
+    <ol id="buenos">
+
+    </ol>
+
+    <h3>Lista Malos</h3>
+    <ol id="malos">
+
+    </ol>
+</body>
+</html>

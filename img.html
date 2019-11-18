@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .img1{
+            height: 300px;
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/img1.jpg" class="img1">
+
+    <script>
+        $(document).ready(function(){
+            $(".img1").on("mouseenter", function () {
+                $(this).attr("src", "img/img1.jpg");
+            })
+
+            $(".img1").on("mouseleave", function () {
+                $(this).attr("src", "img/img4.webp");
+            })
+        })
+    </script>
+</body>
+</html>
